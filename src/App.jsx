@@ -14,10 +14,10 @@ export default class App extends Component {
       <Navbar/>
       
       <Routes>
-        <Route path='https://react-class-based.netlify.app/about' element={<About/>} />
-        <Route path='https://react-class-based.netlify.app/home' element={<Home/>} />
-        <Route path='https://react-class-based.netlify.app/products' element={<Products/>} />
-        <Route path='https://react-class-based.netlify.app/productdetails/:id' element={<ProductsDetails/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='/products' element={<Products/>} />
+        <Route path='/productdetails/:id' element={<ProductsDetails/>} />
     
       </Routes>
       </div>
