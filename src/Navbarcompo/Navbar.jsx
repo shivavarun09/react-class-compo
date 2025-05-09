@@ -13,14 +13,14 @@ export default class Navbar extends Component {
         </div>
 
         <div >
-          <Link to="/about" className="Nav-links">
+          <Link to="https://react-class-based.netlify.app/about" className="Nav-links">
             <span >About</span>
           </Link>
-          <Link to="/home" className="Nav-links">
+          <Link to="https://react-class-based.netlify.app/home" className="Nav-links">
             <span>Home</span>
           </Link>
 
-          <Link to='/products' className="Nav-links">
+          <Link to='https://react-class-based.netlify.app/products' className="Nav-links">
           <span>Produtcs</span>
 
           </Link>

@@ -18,7 +18,7 @@ export default class Products extends Component {
               <Card.Text>${product.price}</Card.Text>
 
               
-              <Button as={Link} to={`/productdetails/${product.id}`} variant="success">View Details</Button>
+              <Button as={Link} to={`https://react-class-based.netlify.app/productdetails/${product.id}`} variant="success">View Details</Button>
             </Card.Body>
           </Card>
         ))}
