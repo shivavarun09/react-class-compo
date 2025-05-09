@@ -7,7 +7,9 @@ export default class Navbar extends Component {
     return (
       <div className="Navbar">
         <div>
-          <h2>MyStore</h2>
+        <Link className="Homelink" to='https://react-class-based.netlify.app/'>
+        <h2>MyStore</h2>
+        </Link>  
         </div>
 
         <div >
